@@ -20,35 +20,34 @@ This project is part of my portfolio to showcase sports analytics, Python data h
 Formula1-2023-Analysis/
 │
 ├── formula1_analysis_2.ipynb   # Main Jupyter Notebook
-├── requirements.txt            # Project dependencies (to be added)
 ├── README.md                   # Project documentation
 
 Inside formula1_analysis_2023.ipynb:
-1.	Library Imports
-o	Import core packages (fastf1, pandas, numpy, matplotlib, seaborn).
-2.	Event Schedule Retrieval
-o	Load the full 2023 Formula 1 calendar with race names, rounds, and dates.
-3.	Function: get_team_pace_data(round_number)
-o	Fetches qualifying session for a given round.
-o	Identifies the fastest lap per driver.
-o	Selects the fastest driver per team.
-o	Computes each team’s time deficit vs. the overall fastest team.
-4.	Loop Through Multiple Rounds
-o	Collect team pace data for the first 10 rounds.
-o	Store results in a Pandas DataFrame.
-5.	Visualization
-o	Plot relative pace differences using Matplotlib/Seaborn.
-o	Show team-by-team comparison in bar charts and trend plots.
+1.	Library Imports:
+ Import core packages (fastf1, pandas, numpy, matplotlib, seaborn).
+2.	Event Schedule Retrieval:
+	Load the full 2023 Formula 1 calendar with race names, rounds, and dates.
+3.	Function: get_team_pace_data(round_number):
+ Fetches qualifying session for a given round.
+ Identifies the fastest lap per driver.
+ Selects the fastest driver per team.
+ Computes each team’s time deficit vs. the overall fastest team.
+4.	Loop Through Multiple Rounds:
+ Collect team pace data for the first 10 rounds.
+ Store results in a Pandas DataFrame.
+5.	Visualization:
+ Plot relative pace differences using Matplotlib/Seaborn.
+ Show team-by-team comparison in bar charts and trend plots.
 
  
 ⚙️ Tech Stack
 •	Programming Language: Python
 •	Libraries Used:
-o	fastf1 → Fetch official FIA F1 timing and telemetry data.
-o	pandas → Data manipulation and analysis.
-o	numpy → Numerical calculations.
-o	matplotlib → Static plots and visualizations.
-o	seaborn → Enhanced data visualization with statistical insights.
+1.	fastf1 → Fetch official FIA F1 timing and telemetry data.
+2.	pandas → Data manipulation and analysis.
+3.	numpy → Numerical calculations.
+4.	matplotlib → Static plots and visualizations.
+5.	seaborn → Enhanced data visualization with statistical insights.
 
   
 📊 Results & Insights
